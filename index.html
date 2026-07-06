@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>이정호(Ryan Lee) - 포트폴리오</title>
+    <meta name="description" content="풀스택 웹 개발자 및 AI Agent, LLM 개발자 이정호(Ryan Lee)의 포트폴리오입니다.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;600;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="blob-bg"></div>
+    <div class="blob-bg blob-2"></div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#" class="logo">Ryan<span>Lee</span></a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content fade-in">
+                <p class="greeting">Hello, I'm</p>
+                <h1 class="glitch" data-text="이정호 (Ryan Lee)">이정호 (Ryan Lee)</h1>
+                <h2 class="roles">
+                    <span class="role">Full-Stack</span>
+                    <span class="dot">•</span>
+                    <span class="role">Web Developer</span>
+                    <span class="dot">•</span>
+                    <span class="role">LLM Developer</span>
+                    <span class="dot">•</span>
+                    <span class="role">AI Agent</span>
+                </h2>
+                <p class="summary">사용자 경험을 극대화하는 웹 애플리케이션과<br>혁신적인 AI 에이전트를 설계하고 개발합니다.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about section">
+            <h2 class="section-title fade-in-up">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text glass fade-in-up">
+                    <p><strong>"레거시 운영부터 최첨단 AI 파이프라인 구축까지, 엔드투엔드 서비스 구현 능력"</strong></p>
+                    <p>4년 이상 Java/Spring 기반 대규모 레거시 시스템을 운영하고, Nest.js/TypeScript로 모던 웹 서비스를 고도화했으며, 최근에는 LLM 기반 AI 서비스를
+                        주도적으로 개발해 왔습니다.</p>
+                    <p>단순히 기능을 만드는 것에 그치지 않고, <strong>풀스택 시야</strong>를 바탕으로 전체 시스템의 부하와 확장성을 고려합니다. 문제의 본질을 파고드는
+                        <strong>'해결사'형 개발자</strong>로서 기술적 한계를 돌파하며 비즈니스 가치를 창출합니다.
+                    </p>
+                </div>
+                <div class="about-stats glass fade-in-up delay-1">
+                    <div class="stat-item">
+                        <h3>풀스택 역량</h3>
+                        <p>DB 설계부터 프론트엔드, 인프라(Docker)까지 아키텍처 최적화</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>빠른 학습력</h3>
+                        <p>로컬 LLM, 멀티 에이전트 등 최신 AI 트렌드의 신속한 실무 적용</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills section">
+            <h2 class="section-title fade-in-up">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card glass fade-in-up">
+                    <div class="skill-icon">💻</div>
+                    <h3>Languages</h3>
+                    <div class="tags" style="margin-top: 1rem;">
+                        <span>Java</span><span>Python</span><span>TypeScript</span><span>JavaScript</span><span>C#</span><span>HTML/CSS</span>
+                    </div>
+                </div>
+                <div class="skill-card glass fade-in-up delay-1">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>Backend</h3>
+                    <div class="tags" style="margin-top: 1rem;">
+                        <span>Spring
+                            Boot</span><span>Node.js</span><span>Nest.js</span><span>FastAPI</span><span>React</span>
+                    </div>
+                </div>
+                <div class="skill-card glass fade-in-up delay-2">
+                    <div class="skill-icon">🗄️</div>
+                    <h3>DB & Infra</h3>
+                    <div class="tags" style="margin-top: 1rem;">
+                        <span>Oracle</span><span>PostgreSQL</span><span>Prisma</span><span>ChromaDB</span><span>Docker</span><span>Kubernetes</span>
+                    </div>
+                </div>
+                <div class="skill-card glass fade-in-up delay-3">
+                    <div class="skill-icon">🧠</div>
+                    <h3>AI</h3>
+                    <div class="tags" style="margin-top: 1rem;">
+                        <span>OpenAI API</span><span>Gemini
+                            API</span><span>Claude</span><span>LangChain</span><span>LangGraph</span><span>AutoGen</span><span>llama.cpp</span><span>Ollama</span><span>RAG</span><span>MCP</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects section">
+            <h2 class="section-title fade-in-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- AI / LLM 에이전트 -->
+                <div class="project-card glass fade-in-up">
+                    <div class="project-info">
+                        <h3>로컬 LLM 코딩 에이전트</h3>
+                        <p>Gemma 4 26B 로컬 모델을 두뇌로 사용하여 자연어 요청에 따라 코드 탐색·작성·검증을 자율 수행하는 터미널 에이전트 구현.
+                            HITL(Human-in-the-loop) 통제 및 자기 교정 루프 구축.</p>
+                        <div class="tags">
+                            <span>TypeScript</span><span>Node.js</span><span>MCP</span><span>Docker</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass fade-in-up delay-1">
+                    <div class="project-info">
+                        <h3>사내 API 자동 호출 에이전트</h3>
+                        <p>OpenAPI 명세를 RAG로 등록하여, 자연어 요청 시 적합한 API를 동적으로 선별하고 자동 호출하는 LangGraph 프로토타입. 에러 기반 자가 교정 파이프라인
+                            및 테스트 검증 적용.</p>
+                        <div class="tags">
+                            <span>Python</span><span>LangGraph</span><span>ChromaDB</span><span>llama.cpp</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass fade-in-up delay-2">
+                    <div class="project-info">
+                        <h3>AutoGen 멀티 에이전트 협업</h3>
+                        <p>다중 AI 에이전트(기획/개발/QA) 협업으로 2D 게임을 무인 자동 생성하는 시스템. FSM 기반 턴 제어와 자체 QA 코드 리뷰 루프(Playwright)를 통해
+                            LLM 환각 현상 제어.</p>
+                        <div class="tags">
+                            <span>Python</span><span>AutoGen</span><span>Playwright</span><span>Gemini API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass fade-in-up">
+                    <div class="project-info">
+                        <h3>법률 Q&A RAG 챗봇</h3>
+                        <p>건강검진센터 내부 규정에 특화된 지식 기반 챗봇 구축. 복잡한 표 데이터를 효과적으로 구조화하는 HTML 파싱 로직 및 문서 검색 파이프라인 설계.</p>
+                        <div class="tags">
+                            <span>Python</span><span>RAG</span><span>HTML Parsing</span><span>LLM</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Web / Backend -->
+                <div class="project-card glass fade-in-up delay-1">
+                    <div class="project-info">
+                        <h3>모던 웹 서비스 고도화</h3>
+                        <p>Nest.js, React 기반으로 웹사이트 성능 최적화 진행. 페이지 로딩 속도를 32% 개선하고, 모바일 반응형 UI/UX를 개선하여 사용자 전환율을
+                            향상시켰습니다.</p>
+                        <div class="tags">
+                            <span>Nest.js</span><span>React</span><span>PostgreSQL</span><span>Prisma</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass fade-in-up delay-2">
+                    <div class="project-info">
+                        <h3>검진 프로그램 & EMR 연동 API</h3>
+                        <p>내부 EMR 시스템과 홈페이지를 연동하는 통합 API 서버 개발. 검진 플로우 자동화를 통해 프로세스 효율성을 높이고 API 장애율 감소 및 안정성을 강화했습니다.
+                        </p>
+                        <div class="tags">
+                            <span>REST
+                                API</span><span>Node.js</span><span>Oracle</span><span>PostgreSQL</span><span>TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass fade-in-up">
+                    <div class="project-info">
+                        <h3>AIOps 에러 알림 파이프라인</h3>
+                        <p>시스템 에러 실시간 모니터링을 위한 알림 연동 시스템 구축. Logstash로 수집한 데이터를 FastAPI로 처리하여 Discord Webhook으로 즉각적인 알림
+                            발송.</p>
+                        <div class="tags">
+                            <span>FastAPI</span><span>Python</span><span>Logstash</span><span>Discord API</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass fade-in-up delay-1">
+                    <div class="project-info">
+                        <h3>매출 대시보드</h3>
+                        <p>경영진이 빠른 의사결정과 매출 데이터를 확인할 수 있는 대시보드를 구축했습니다. 대시보드는 매출을 일자별, 월별, 연도별을 각 검진센터별로 확인할 수 있도록
+                            구현하였습니다.</p>
+                        <div class="tags">
+                            <span>Java/Spring</span><span>JavaScript</span><span>JQuery</span><span>Chart.js</span><span>Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact section">
+            <h2 class="section-title fade-in-up">Get In Touch</h2>
+            <div class="contact-card glass fade-in-up">
+                <p>협업이나 새로운 기회에 대해 언제든 편하게 연락 주세요!</p>
+                <a href="mailto:hello@example.com" class="btn primary">Send an Email</a>
+                <div class="social-links">
+                    <a href="https://github.com/ryan-lee" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://linkedin.com/in/ryan-lee" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> 이정호(Ryan Lee). All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
